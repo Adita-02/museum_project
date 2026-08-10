@@ -1,5 +1,5 @@
 import express from "express";
-import Place from "../models/Place.js";
+import Place from "../models/place.js";
 import verifyAdmin from "../middleware/verifyAdmin.js";
 
 const router = express.Router();
