@@ -89,7 +89,9 @@ const router = createBrowserRouter([
       { path: "moderation", element: <AdminModeration /> },
     ],
   },
-]);
+], {
+  basename: "/museum_project/",
+});
 
 export default function App() {
   // Custom cursor setup
