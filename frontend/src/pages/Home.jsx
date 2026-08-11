@@ -528,7 +528,7 @@ export default function Home() {
         <div className={`page-section ${activePage === 'home' ? 'active' : ''}`}>
           <section id="hero" className="min-h-screen bg-[radial-gradient(ellipse_at_30%_60%,rgba(139,74,43,0.15),transparent_60%),radial-gradient(ellipse_at_80%_20%,rgba(201,168,76,0.08),transparent_50%),linear-gradient(160deg,#0d0b07,#1a1208,#0d0b07)] flex items-center justify-center relative overflow-hidden px-10 pt-[100px] pb-16">
             <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover z-0 opacity-60">
-  <source src="/mus.mp4" type="video/mp4" />
+  <source src={`${import.meta.env.BASE_URL}mus.mp4`} type="video/mp4" />
 </video>
 <div className="absolute inset-0 bg-gradient-to-br from-[rgba(13,11,7,0.55)] via-[rgba(13,11,7,0.35)] to-[rgba(13,11,7,0.55)] z-10"></div>
             <div className="hero-bg absolute font-['Cinzel',serif] text-[220px] font-black tracking-[-10px] text-[rgba(201,168,76,0.03)] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 whitespace-nowrap pointer-events-none z-20">ARCHÆUM</div>
@@ -561,7 +561,7 @@ export default function Home() {
                 {/* Asia */}
                 <div className="region-card" onClick={() => { navigate('/asia'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
                   <div className="region-card-imgframe">
-                    <img src="/asia.png" alt="Asia" className="region-card-img" />
+                    <img src={`${import.meta.env.BASE_URL}asia.png`} alt="Asia" className="region-card-img" />
                   </div>
                   <div className="region-card-body">
                     <h3 className="region-card-title">Asia — Cradle of Civilization</h3>
@@ -576,7 +576,7 @@ export default function Home() {
                 {/* Africa */}
                 <div className="region-card" onClick={() => { navigate('/africa'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
                   <div className="region-card-imgframe">
-                    <img src="/africa.png" alt="Africa" className="region-card-img" />
+                    <img src={`${import.meta.env.BASE_URL}africa.png`} alt="Africa" className="region-card-img" />
                   </div>
                   <div className="region-card-body">
                     <h3 className="region-card-title">Africa — Cradle of Humankind</h3>
@@ -591,7 +591,7 @@ export default function Home() {
                 {/* Europe */}
                 <div className="region-card" onClick={() => { navigate('/europe'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
                   <div className="region-card-imgframe">
-                    <img src="/europe.png" alt="Europe" className="region-card-img" />
+                    <img src={`${import.meta.env.BASE_URL}europe.png`} alt="Europe" className="region-card-img" />
                   </div>
                   <div className="region-card-body">
                     <h3 className="region-card-title">Europe — Classical & Megalithic Heritage</h3>
@@ -606,7 +606,7 @@ export default function Home() {
                 {/* Americas */}
                 <div className="region-card" onClick={() => { navigate('/americas'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
                   <div className="region-card-imgframe">
-                    <img src="/america.png" alt="Americas" className="region-card-img" />
+                    <img src={`${import.meta.env.BASE_URL}america.png`} alt="Americas" className="region-card-img" />
                   </div>
                   <div className="region-card-body">
                     <h3 className="region-card-title">Americas — Pyramids of the New World</h3>
