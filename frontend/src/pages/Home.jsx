@@ -893,7 +893,7 @@ export default function Home() {
                   <span className="absolute -inset-[3px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ background: 'conic-gradient(from 0deg, transparent 0deg, rgba(232,213,154,0.6) 60deg, transparent 120deg)', animation: 'tcSpin 3s linear infinite' }} />
                   <div className="relative w-full h-full rounded-full bg-gradient-to-br from-[rgba(201,168,76,0.25)] to-[rgba(139,74,43,0.2)] border-2 border-[rgba(201,168,76,0.4)] flex items-center justify-center text-4xl overflow-hidden group-hover:border-[var(--gold)] transition-colors duration-500">
                     <span className="tav-fallback relative z-10">👑</span>
-                    <img className="tphoto absolute inset-0 w-full h-full object-cover rounded-full z-20" src="/adita.jpeg" alt="Adita" onError={(e) => e.target.style.display='none'} />
+                    <img className="tphoto absolute inset-0 w-full h-full object-cover rounded-full z-20" src={`${import.meta.env.BASE_URL}adita.jpeg`} alt="Adita" onError={(e) => e.target.style.display='none'} />
                   </div>
                 </div>
 
@@ -950,7 +950,7 @@ export default function Home() {
                   <span className="absolute -inset-[3px] rounded-full" style={{ background: 'conic-gradient(from 0deg, transparent 0deg, rgba(232,213,154,0.7) 60deg, transparent 120deg)', animation: 'tcSpin 4s linear infinite' }} />
                   <div className="relative w-full h-full rounded-full bg-gradient-to-br from-[rgba(232,213,154,0.35)] to-[rgba(139,74,43,0.2)] border-2 border-[var(--gold)] flex items-center justify-center text-4xl overflow-hidden" style={{ fontSize: '36px' }}>
                     <span className="tav-fallback relative z-10">🏛️</span>
-                    <img className="tphoto absolute inset-0 w-full h-full object-cover rounded-full z-20" src="/was.jpeg" alt="Warisa" onError={(e) => e.target.style.display='none'} />
+                    <img className="tphoto absolute inset-0 w-full h-full object-cover rounded-full z-20" src={`${import.meta.env.BASE_URL}was.jpeg`} alt="Warisa" onError={(e) => e.target.style.display='none'} />
                   </div>
                 </div>
 
@@ -1000,7 +1000,7 @@ export default function Home() {
                   <span className="absolute -inset-[3px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" style={{ background: 'conic-gradient(from 0deg, transparent 0deg, rgba(232,213,154,0.6) 60deg, transparent 120deg)', animation: 'tcSpin 3s linear infinite' }} />
                   <div className="relative w-full h-full rounded-full bg-gradient-to-br from-[rgba(201,168,76,0.25)] to-[rgba(139,74,43,0.2)] border-2 border-[rgba(201,168,76,0.4)] flex items-center justify-center text-4xl overflow-hidden group-hover:border-[var(--gold)] transition-colors duration-500">
                     <span className="tav-fallback relative z-10">🌍</span>
-                    <img className="tphoto absolute inset-0 w-full h-full object-cover rounded-full z-20" src="/anisa.jpeg" alt="Anisa" onError={(e) => e.target.style.display='none'} />
+                    <img className="tphoto absolute inset-0 w-full h-full object-cover rounded-full z-20" src={`${import.meta.env.BASE_URL}anisa.jpeg`} alt="Anisa" onError={(e) => e.target.style.display='none'} />
                   </div>
                 </div>
 
